@@ -1,0 +1,291 @@
+{
+  "name": "formkit-docs",
+  "displayName": "FormKit Docs",
+  "description": "View the FormKit documentation from within VS Code",
+  "version": "0.0.1",
+  "icon": "img/formkit-icon.jpg",
+  "publisher": "taidaid",
+  "repository": "https://github.com/taidaid/vscode-formkit-docs",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "FormKit Docs",
+      "properties": {
+        "formKitDocs.useSimpleBrowser": {
+          "type": "boolean",
+          "default": true,
+          "markdownDescription": "Open documentation in a browser within VS Code.",
+          "scope": "resource"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "extension.formKitDocsForm",
+        "category": "FormKit Docs",
+        "title": "Form"
+      },
+      {
+        "command": "extension.formKitDocsAutocomplete",
+        "category": "FormKit Docs",
+        "title": "Autocomplete"
+      },
+      {
+        "command": "extension.formKitDocsButton",
+        "category": "FormKit Docs",
+        "title": "Button"
+      },
+      {
+        "command": "extension.formKitDocsCheckbox",
+        "category": "FormKit Docs",
+        "title": "Checkbox"
+      },
+      {
+        "command": "extension.formKitDocsColor",
+        "category": "FormKit Docs",
+        "title": "Color"
+      },
+      {
+        "command": "extension.formKitDocsColorpicker",
+        "category": "FormKit Docs",
+        "title": "Colorpicker"
+      },
+      {
+        "command": "extension.formKitDocsDate",
+        "category": "FormKit Docs",
+        "title": "Date"
+      },
+      {
+        "command": "extension.formKitDocsDatetime-local",
+        "category": "FormKit Docs",
+        "title": "Datetime-local"
+      },
+      {
+        "command": "extension.formKitDocsDropdown",
+        "category": "FormKit Docs",
+        "title": "Dropdown"
+      },
+      {
+        "command": "extension.formKitDocsEmail",
+        "category": "FormKit Docs",
+        "title": "Email"
+      },
+      {
+        "command": "extension.formKitDocsFile",
+        "category": "FormKit Docs",
+        "title": "File"
+      },
+      {
+        "command": "extension.formKitDocsForm",
+        "category": "FormKit Docs",
+        "title": "Form"
+      },
+      {
+        "command": "extension.formKitDocsGroup",
+        "category": "FormKit Docs",
+        "title": "Group"
+      },
+      {
+        "command": "extension.formKitDocsHidden",
+        "category": "FormKit Docs",
+        "title": "Hidden"
+      },
+      {
+        "command": "extension.formKitDocsList",
+        "category": "FormKit Docs",
+        "title": "List"
+      },
+      {
+        "command": "extension.formKitDocsMask",
+        "category": "FormKit Docs",
+        "title": "Mask"
+      },
+      {
+        "command": "extension.formKitDocsMeta",
+        "category": "FormKit Docs",
+        "title": "Meta"
+      },
+      {
+        "command": "extension.formKitDocsMonth",
+        "category": "FormKit Docs",
+        "title": "Month"
+      },
+      {
+        "command": "extension.formKitDocsNumber",
+        "category": "FormKit Docs",
+        "title": "Number"
+      },
+      {
+        "command": "extension.formKitDocsPassword",
+        "category": "FormKit Docs",
+        "title": "Password"
+      },
+      {
+        "command": "extension.formKitDocsRadio",
+        "category": "FormKit Docs",
+        "title": "Radio"
+      },
+      {
+        "command": "extension.formKitDocsRange",
+        "category": "FormKit Docs",
+        "title": "Range"
+      },
+      {
+        "command": "extension.formKitDocsRepeater",
+        "category": "FormKit Docs",
+        "title": "Repeater"
+      },
+      {
+        "command": "extension.formKitDocsSearch",
+        "category": "FormKit Docs",
+        "title": "Search"
+      },
+      {
+        "command": "extension.formKitDocsSelect",
+        "category": "FormKit Docs",
+        "title": "Select"
+      },
+      {
+        "command": "extension.formKitDocsSlider",
+        "category": "FormKit Docs",
+        "title": "Slider"
+      },
+      {
+        "command": "extension.formKitDocsSubmit",
+        "category": "FormKit Docs",
+        "title": "Submit"
+      },
+      {
+        "command": "extension.formKitDocsTaglist",
+        "category": "FormKit Docs",
+        "title": "Taglist"
+      },
+      {
+        "command": "extension.formKitDocsTel",
+        "category": "FormKit Docs",
+        "title": "Tel"
+      },
+      {
+        "command": "extension.formKitDocsText",
+        "category": "FormKit Docs",
+        "title": "Text"
+      },
+      {
+        "command": "extension.formKitDocsTextarea",
+        "category": "FormKit Docs",
+        "title": "Textarea"
+      },
+      {
+        "command": "extension.formKitDocsTime",
+        "category": "FormKit Docs",
+        "title": "Time"
+      },
+      {
+        "command": "extension.formKitDocsToggle",
+        "category": "FormKit Docs",
+        "title": "Toggle"
+      },
+      {
+        "command": "extension.formKitDocsTogglebuttons",
+        "category": "FormKit Docs",
+        "title": "Togglebuttons"
+      },
+      {
+        "command": "extension.formKitDocsTransfer-list",
+        "category": "FormKit Docs",
+        "title": "Transfer-list"
+      },
+      {
+        "command": "extension.formKitDocsUrl",
+        "category": "FormKit Docs",
+        "title": "Url"
+      },
+      {
+        "command": "extension.formKitDocsWeek",
+        "category": "FormKit Docs",
+        "title": "Week"
+      },
+      {
+        "command": "extension.formKitDocsValidation",
+        "category": "FormKit Docs",
+        "title": "Validation"
+      },
+      {
+        "command": "extension.formKitDocsStyling",
+        "category": "FormKit Docs",
+        "title": "Styling"
+      },
+      {
+        "command": "extension.formKitDocsInputs",
+        "category": "FormKit Docs",
+        "title": "Inputs"
+      },
+      {
+        "command": "extension.formKitDocsIcons",
+        "category": "FormKit Docs",
+        "title": "Icons"
+      },
+      {
+        "command": "extension.formKitDocsInternationalization",
+        "category": "FormKit Docs",
+        "title": "Internationalization"
+      },
+      {
+        "command": "extension.formKitDocsCustomInputs",
+        "category": "FormKit Docs",
+        "title": "Custom Inputs"
+      },
+      {
+        "command": "extension.formKitDocsSchema",
+        "category": "FormKit Docs",
+        "title": "Schema"
+      },
+      {
+        "command": "extension.formKitDocsConfiguration",
+        "category": "FormKit Docs",
+        "title": "Configuration"
+      },
+      {
+        "command": "extension.formKitDocsArchitecture",
+        "category": "FormKit Docs",
+        "title": "Architecture"
+      },
+      {
+        "command": "extension.formKitDocsExamples",
+        "category": "FormKit Docs",
+        "title": "Examples"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8"
+  }
+}
