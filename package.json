@@ -2,7 +2,7 @@
   "name": "formkit-docs",
   "displayName": "FormKit Docs",
   "description": "View the FormKit documentation from within VS Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icon": "img/formkit-icon.png",
   "publisher": "taidaid",
   "repository": "https://github.com/taidaid/vscode-formkit-docs",
@@ -17,7 +17,7 @@
     "configuration": {
       "title": "FormKit Docs",
       "properties": {
-        "formKitDocs.useSimpleBrowser": {
+        "formkitDocs.useSimpleBrowser": {
           "type": "boolean",
           "default": true,
           "markdownDescription": "Open documentation in a browser within VS Code.",
