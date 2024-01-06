@@ -15,3 +15,7 @@ If you have any requirements or dependencies, add a section describing those and
 If you'd like it to open in your system's web browser, uncheck the "FormKit Docs: Use Simple Browser" setting in your VS Code preferences.
 
 **Enjoy!**
+
+# Thanks
+
+Big thanks to [Austenc](https://github.com/austenc) for his extension [TailwindDocs](https://github.com/austenc/vscode-tailwind-docs/tree/master), which this extension is based on.
