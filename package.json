@@ -3,7 +3,7 @@
   "displayName": "FormKit Docs",
   "description": "View the FormKit documentation from within VS Code",
   "version": "0.0.1",
-  "icon": "img/formkit-icon.jpg",
+  "icon": "img/formkit-icon.png",
   "publisher": "taidaid",
   "repository": "https://github.com/taidaid/vscode-formkit-docs",
   "engines": {
