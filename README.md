@@ -6,6 +6,9 @@ View the [FormKit Docs](https://formkit.com) from within VS Code.
 
 To use this extension, simply use `⌘ + Shift + P` to open the command palette (`Ctrl` on Windows / Linux) and search for "FormKit Docs" or the specific topic you're after.
 
+![image](https://github.com/taidaid/vscode-formkit-docs/assets/39394303/816632fc-df08-4915-946e-51b43d99aecd)
+![image](https://github.com/taidaid/vscode-formkit-docs/assets/39394303/efbe9c09-23d3-4a02-90d1-7f66eb10c9dd)
+
 
 ## Extension Settings
 
